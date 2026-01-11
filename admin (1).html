@@ -820,7 +820,8 @@ Mark as Completed
                 business_phone: '(123) 456-7890',
                 business_email: 'info@lunamassage.com',
                 business_address: '123 Wellness Street, City, State 12345',
-                subject: status === 'confirmed' ? 'Booking Confirmed - Luna Massage' : 'Appointment Reminder - Luna Massage'
+                subject: status === 'confirmed' ? 'Booking Confirmed - Luna Massage' : 'Appointment Reminder - Luna Massage',
+                current_year: new Date().getFullYear().toString()
             };
 
             // Choose template based on status
